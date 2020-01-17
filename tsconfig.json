@@ -1,0 +1,35 @@
+{
+    "extends": "./tsconfig.path.json",
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "allowJs": true,
+        "strict": true,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext",
+            "scripthost"
+        ],
+        "rootDir": ".",
+        "outDir": "./build_ts/",
+        "baseUrl": "./src",
+        "paths": {
+            "~/*": [
+                "*"
+            ],
+        },
+        "types": [
+            "node"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
