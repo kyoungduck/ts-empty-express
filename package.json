@@ -1,5 +1,5 @@
 {
-	"name": "typescript-express-starter",
+	"name": "ts-empty-express",
 	"version": "0.0.1",
 	"description": "typescript templeate project using express",
 	"main": "index.js",
